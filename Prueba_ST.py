@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 #from openpyxl import Workbook
+import pip
+pip.main(["install", "openpyxl"])
 
 st.write("Hello world")
 
